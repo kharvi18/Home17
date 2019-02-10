@@ -1,0 +1,57 @@
+.about-us {
+  background: url("../img/about-us/bg.png");
+  background-size: cover;
+
+  &__header {
+    margin-top: 110px;
+    margin-bottom: 130px;
+    @media(max-width: 991px) {
+      margin-bottom: 80px;
+    }
+    &-title {
+      font-family: "PN-bold", serif;
+      font-size: 3rem;
+      line-height: 36px;
+      color: #fff;
+      margin-bottom: 30px;
+    }
+    &-text {
+      font-family: "PN-light", serif;
+      font-size: 1.1rem;
+      line-height: 30px;
+      color: #949494;
+    }
+  }
+  &__team {
+    &-person {
+      &-name {
+        font-family: "PN-bold", serif;
+        font-size: 1.5rem;
+        line-height: 36px;
+        color: #fff;
+        margin-top: 25px;
+        @media(max-width: 991px) {
+          margin-top: 13px;
+          margin-bottom: 2px;
+        }
+      }
+      &-text {
+        font-family: "PN-light", serif;
+        font-size: 1.1rem;
+        line-height: 30px;
+        color: #949494;
+      }
+      @media(max-width: 991px) {
+        margin-bottom: 40px;
+      }
+    }
+  }
+  &__button {
+    margin-top: 100px;
+    margin-bottom: 120px;
+    @media(max-width: 991px) {
+      margin-top: 20px;
+      margin-bottom: 100px;
+    }
+  }
+}

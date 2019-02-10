@@ -1,0 +1,25 @@
+.code {
+  background: url("../img/code/bg.jpg") center;
+  background-size: cover;
+  padding-top: 145px;
+  padding-bottom: 135px;
+  @media(max-width: 1366px) {
+    padding-top: 115px;
+    padding-bottom: 105px;
+  }
+  &__part {
+    color: #fff;
+    &-title {
+      font-family: "PN-bold", serif;
+      font-size: 3rem;
+      line-height: 36px;
+      margin-bottom: 25px;
+    }
+    &-text {
+      font-family: "PN-light", serif;
+      font-size: 1.1rem;
+      line-height: 30px;
+      margin-bottom: 40px;
+    }
+  }
+}

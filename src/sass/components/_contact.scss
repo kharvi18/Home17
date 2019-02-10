@@ -1,0 +1,13 @@
+.contact {
+  &__map {
+    height: 600px;
+    box-sizing: border-box;
+    &-iframe {
+      width: 100%;
+      height: 100%;
+    }
+    @media (max-width: 1280px) {
+      height: 400px;
+    }
+  }
+}
